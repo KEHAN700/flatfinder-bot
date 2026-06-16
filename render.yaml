@@ -16,4 +16,4 @@ services:
       - key: NOTIFY_INTERVAL_MIN
         value: "5"
       - key: DB_URL
-        value: "sqlite+aiosqlite:///estate.db"
+        sync: false
